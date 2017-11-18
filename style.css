@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
     text-align: center;
-    background: #ebebeb;
 }
 body {
     background-color: #777;
@@ -26,9 +25,10 @@ nav {
 .content{
     height: 240px;
     margin: 0px 10px;
+    clear: both;
 }
-section {
-    line-height: 150px;
+.section {
+    line-height: 300px;
     float: left;
     display: block;
     width: 495px;
@@ -39,7 +39,7 @@ section {
 aside {
     float: right;
     width: 320px;
-    line-height: 150px;
+    line-height: 300px;
     background-color: #ebebeb;
     padding: 30px;
     height: 180px;
@@ -67,11 +67,11 @@ article {
     color: #777;
 }
 footer {
+    clear: both;
     background-color: #ebebeb;
     padding: 30px;
-    margin: 10px;
+    margin: 10px 10px 0px 10px;
     line-height: 50px;
-    clear: both;
 }
 .clear {
 }
